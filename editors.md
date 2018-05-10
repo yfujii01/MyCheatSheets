@@ -25,3 +25,11 @@
   | vscode   | ctrl + shift + down | editor.action.moveLinesDownAction |
   | intellij | ctrl + shift + down | Move Line Down                    |
   | vim      | -                   | (設定方法不明)                    |
+
+## フォーマット
+
+  | editor   | コマンド            | 設定方法                          |
+  | -------- | ------------------- | --------------------------------- |
+  | vscode   | ctrl + alt + l      | editor.action.formatDocument      |
+  | intellij | ctrl + alt + l      | Reformat Code                     |
+  | vim      | gg=G                | デフォルト(※調整はインデントのみ) |
