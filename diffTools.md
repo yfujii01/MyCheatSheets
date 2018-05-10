@@ -7,6 +7,13 @@ git difftool を引数無しで指定した場合は
 - 左が参考
 - 右が変更対象(local)
 
+## 変更をステージングする(git用)
+
+  | editor   | コマンド   | 設定方法                |
+  | -------- | ---------- | ----------------------- |
+  | vim-diff | -          |                         |
+  | vscode   | ctrl+enter | git.stageSelectedRanges |
+
 ## 変更を取り込む
 
   | editor   | コマンド | 設定方法   |
