@@ -15,3 +15,35 @@ for (var i = 0, len = rows.length; i < len; i++) {
   table_str += line.trim() + '\n'
 }
 ```
+
+- trimする
+
+  - 文字列の先頭および末尾の連続する「半角空白・タブ文字・全角空白」を削除します
+
+    ``` javascript
+    String.prototype.trim = function() {
+      return this.replace(/^[\s　]+|[\s　]+$/g, '');
+    }
+    ```
+
+  - 文字列の先頭の連続する「半角空白・タブ文字・全角空白」を削除します
+    ``` javascript
+    String.prototype.ltrim = function() {
+      return this.replace(/^[\s　]+/g, '');
+    }
+    ```
+
+  - 文字列の末尾の連続する「半角空白・タブ文字・全角空白」を削除します
+    ``` javascript
+    String.prototype.rtrim = function() {
+      return this.replace(/[\s　]+$/g, '');
+    }
+    ```
+
+  - 文字列の先頭および末尾の連続する「半角空白・タブ文字」を削除します
+    ``` javascript
+    String.prototype.trim = function() {
+      return this.replace(/^\s+|\s+$/g, '');
+    }
+    ```
+
