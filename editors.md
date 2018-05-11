@@ -2,13 +2,21 @@
 
 ※コマンドに入れているのは自分用設定なので初期値でない可能性がある
 
-## カーソルを下に増やす
+## カーソルを下に増やす(マルチカーソル)
 
   | editor   | コマンド          | 設定方法                        |
   | -------- | ----------------- | ------------------------------- |
   | vscode   | ctrl + alt + down | editor.action.insertCursorBelow |
   | intellij | ctrl + alt + down | Clone Caret Below               |
   | vim      | -                 | (設定方法不明)                  |
+
+## カーソル上の単語と同一の単語全てにカーソルを置く(マルチカーソル)
+
+  | editor   | コマンド          | 設定方法                                        |
+  | -------- | ----------------- | ----------------------------------------------- |
+  | vscode   | ctrl + f2         | editor.action.changeAll                         |
+  | intellij | -                 | 不明                                            |
+  | vim      | f2                | let g:multi_cursor_select_all_key      = '<f2>' |
 
 ## コメントアウト
 
