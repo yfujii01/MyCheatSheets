@@ -9,10 +9,10 @@ git difftool を引数無しで指定した場合は
 
 ## 変更をステージングする(git用)
 
-  | editor   | コマンド   | 設定方法                |
-  | -------- | ---------- | ----------------------- |
-  | vim-diff | -          |                         |
-  | vscode   | ctrl+enter | git.stageSelectedRanges |
+  | editor   | コマンド    | 設定方法                |
+  | -------- | ----------- | ----------------------- |
+  | vim-diff | -           |                         |
+  | vscode   | shift+alt+a | git.stageSelectedRanges |
 
 ## 変更を取り込む
 
