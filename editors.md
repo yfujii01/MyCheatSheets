@@ -24,6 +24,7 @@
   | -------- | ------------------------------------- | ------------------------------- |
   | vscode   | ctrl + /                              | editor.action.commentLine       |
   | intellij | ctrl + /                              | Comment with Line Comment       |
+  | vim      | ctrl + / ctrl + /                     | プラグイン'tomtom/tcomment_vim' |
   | vim      | (normalmode) gcc <br> (visualmode) gc | プラグイン'tomtom/tcomment_vim' |
 
 ## 行を下へ移動
